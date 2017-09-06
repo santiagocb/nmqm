@@ -1,6 +1,6 @@
 var DEBUG = true;
 var ROTATION_SPEED = 5;
-var ARENA_MARGIN = 30;
+var ARENA_MARGIN = 40;
 
 //Clase Spacecraft
 function Spacecraft(id, type, $arena, game, isLocal, x, y, hp){

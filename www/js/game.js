@@ -37,7 +37,7 @@ Game.prototype = {
 		spacecraft.dead = true;
 		this.removeSpacecraft(spacecraft.id);
 		//lugar donde explota
-		this.$arena.append('<img id="expl' + spacecraft.id + '" class="explosion" src="./img/explosion.gif">');
+		this.$arena.append('<img id="expl' + spacecraft.id + '" class="explosion" src="./img/space-explosion.gif">');
 		$('#expl' + spacecraft.id).css('left', (spacecraft.x - 50)  + 'px');
 		$('#expl' + spacecraft.id).css('top', (spacecraft.y - 100)  + 'px');
 

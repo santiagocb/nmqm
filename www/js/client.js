@@ -1,7 +1,7 @@
-var WIDTH = 1100;
-var HEIGHT = 580;
+var WIDTH = 1370;
+var HEIGHT = 655;
 
-var socket = io.connect(''ip':8082');		//La ip del servidor
+var socket = io.connect('192.168.30.21:8082');		//Server's IP
 var game = new Game('#arena', WIDTH, HEIGHT, socket);
 var selectedSpacecraft = 1;
 var spacecraftName = '';

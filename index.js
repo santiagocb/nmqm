@@ -2,8 +2,8 @@ var express = require('express');
 var app = express();
 var counter = 0;
 const BALL_SPEED = 20;
-const WIDTH = 1100;
-const HEIGHT = 580;
+var WIDTH = 1370;
+var HEIGHT = 655;
 const TANK_INIT_HP = 100;
 
 app.use(express.static(__dirname + '/www'));
